@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworldapp
+  labels:
+    name: helloworldapp
+spec:
+  selector:
+    matchLabels:
+      name: helloworldapp
+  template:
+    metadata:
+      labels:
+        name: helloworldapp
+    spec:
+      containers:
+        - name: helloworldapp
+          image: martinsimon/martinsspringboot
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080 
