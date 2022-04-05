@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
     path: dev
   destination:
-    server: https://kuberneters.default.svc
+    server: https://kubernetes.default.svc
     namespace: helloworldapp
 
   syncPolicy:
