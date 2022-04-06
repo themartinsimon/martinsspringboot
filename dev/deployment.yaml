@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        name: helloworldapp
+        app: helloworldapp
     spec:
       containers:
         - name: helloworldapp
