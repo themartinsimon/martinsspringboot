@@ -3,15 +3,15 @@ kind: Deployment
 metadata:
   name: helloworldapp
   labels:
-    app: helloworldapp
+    name: helloworldapp
 spec:
   selector:
     matchLabels:
-      app: helloworldapp
+      name: helloworldapp
   template:
     metadata:
       labels:
-        app: helloworldapp
+        name: helloworldapp
     spec:
       containers:
         - name: helloworldapp
