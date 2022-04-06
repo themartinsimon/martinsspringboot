@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: helloworldapp
   labels:
-    name: helloworldapp
+    app: helloworldapp
 spec:
   selector:
     matchLabels:
