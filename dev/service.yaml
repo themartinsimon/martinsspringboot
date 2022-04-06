@@ -6,6 +6,6 @@ spec:
   selector:
     app: helloworldapp
   ports:
-  - port: 8089
+  - port: 8080
     protocol: TCP
     targetPort: 8080
